@@ -164,7 +164,7 @@ const Roadmap = () => {
                         </div>
                     </div>
                     <div className='relative md:hidden block ms-8'>
-                        <div className='min-h-[82%] w-[3px] bg-white absolute top-2 after:h-[55px] after:w-[55px] after:rounded-[50%] after:content-["20%"] after:flex after:justify-center after:items-center after:text-md after:ff-Montserrat after:font-black  after:bg-white after:absolute after:left-[-26px] after:top-0'></div>
+                        <div className='min-h-[82%] timeline w-[3px] bg-white absolute top-2 after:h-[55px] after:w-[55px] after:rounded-[50%] after:content-["20%"] after:flex after:justify-center after:items-center after:text-md after:ff-Montserrat after:font-black  after:bg-white after:absolute after:left-[-26px] after:top-0'></div>
                         <div className='relative text-white px-10 pt-3'>
                             <h3 className='text-md ff-AzoSans font-normal text-white'>Phase 1</h3>
                             <p className='text-sm ff-Montserrat font-normal text-white !opacity-40'>Mi amet elementum, posuere tempus odio eu lacinia. Natoque arcu viverra ullamcorper condimentum massa laoree</p>
