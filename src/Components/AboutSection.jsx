@@ -4,7 +4,7 @@ import Watches from '../Assets/images/png/Watches.png'
 import Cars from '../Assets/images/png/Cars.png'
 
 const AboutSection = () => {
-  
+
     return (
         <>
             <section className="bg-black pb-24">
@@ -15,9 +15,10 @@ const AboutSection = () => {
                             <h2 className='ff-AzoSans lg:text-4xl text-3xl text-white'>About</h2>
                             <p className='max-w-[510px] text-white ff-Montserrat text-[16px] font-normal xl:text-left text-center  xl:pt-0 pt-10'>
                                 Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. Erat nam molestie. Vitae mollis lacus senectus mattis nisl. Porta , adipiscing sed mus diam amet, ac sed tellus.
-                            </p>                                 
+                            </p>
                         </div>
-                        <div className='xl:w-1/2 w-[100%] xl:mt-0 mt-12 xl:pb-0 pb-[20rem] md:overflow-visible overflow-hidden'>
+                        <div className='xl:w-1/2 w-[100%] xl:mt-0 mt-12 xl:pb-0 pb-[20rem] md:overflow-visible overflow-hidden relative'>
+                            <div className="h-[150px] w-[150px] rounded-[50%] blur-[147px] bg-[#fdda60] absolute top-[35%] right-[35%]"></div>
                             <section id="slideshow rotateY">
                                 <div class="entire-content rotateZ">
                                     <div class="content-carrousel">
@@ -36,7 +37,7 @@ const AboutSection = () => {
                             </section>
 
                         </div>
-                   </div>
+                    </div>
 
 
 
